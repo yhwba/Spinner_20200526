@@ -22,6 +22,7 @@
             android:layout_marginLeft="10dp"
             android:text="직군이름"/>
 
+
     </LinearLayout>
 
 </LinearLayout>

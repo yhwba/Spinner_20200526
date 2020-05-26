@@ -6,6 +6,11 @@ public class Occupation {
     private String name;
     private int imageId;
 
+    public Occupation(String name, int imageId) {
+        this.name = name;
+        this.imageId = imageId;
+    }
+
     public String getName() {
         return name;
     }
@@ -26,7 +31,4 @@ public class Occupation {
         this.imageId = imageId;
     }
 
-    public Occupation(String name) {
-        this.name = name;
-    }
 }
